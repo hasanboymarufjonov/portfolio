@@ -57,7 +57,7 @@ body {margin:0;height:2000px;}
     top: 95%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
-    transform: translateX(37%);
+    transform: translateX(25%);
   }
   .icon-bar a {
     display: unset;
