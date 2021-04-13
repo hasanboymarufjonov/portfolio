@@ -27,29 +27,36 @@
     <div id="loader"></div>
 
         <!-- header -->
-
-
-    <header>
-        <nav>
-            <h1 class="header">theRealHasanboy</h1>
-            <!-- navbar-->
-    <ul>
-        <li><a data-page="home" href="#home"><i class="bi bi-house" class="i-home" style="font-size: 30px;"></i></a</li>
-        <li><a data-page="about" href="#about"><i class="bi bi-person" class="i-about" style="font-size: 30px;"></i></a></li>
-        <li><a data-page="project" href="#project"><i class="bi bi-kanban" class="i-project" style="font-size: 30px;"></i></a></li>
-        <li><a data-page="contact" href="#contact"><i class="bi bi-envelope" class="i-contact" style="font-size: 30px;"></i></a></li>
-        <div class="bubble"></div>
-    </ul>
-        </nav>
+<header>
+        <div id="wrap">
+            <nav>
+                <div class="logo">
+                    <strong style="color: black; font-size: 28px">theRealHasanboy</strong>
+                </div>
+                <button type="button" class="btn-hamburger" data-action="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#project">Projects</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                    <li class="nav-item"><a data-action="dropdown-toggle"></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
 
     
 
     <main>
 
         <!-- home section-->
-
+        <br><br>
         <section data-index="0" class="home" id="home">
             <section class="s1">
                 <div class="main-container">
@@ -193,7 +200,7 @@
         
                         <div>
                             <div class="post">
-                                <img class="thumbnail" src="images/ecom.jpg">
+                                <img class="thumbnail" src="#">
                                 <div class="post-preview">
                                     <h6 class="post-title">Title</h6>
                                     <p class="post-intro">About</p>
@@ -204,7 +211,7 @@
         
                         <div>
                             <div class="post">
-                                <img class="thumbnail" src="images/membership site.jpg">
+                                <img class="thumbnail" src="#">
                                 <div class="post-preview">
                                     <h6 class="post-title">My blog</h6>
                                     <p class="post-intro">This is my first blog website. I used HTML, CSS, JavaScript to create this blog</p>
@@ -259,9 +266,15 @@
       
       <!-- Footer -->
 
-    <footer class="footer">
-        <p style="background-color: black; text-align: center; padding: 30px;">&#9400 2021 theRealHasanboy. All rights reserved.
-        <br><br>&#127760Social networks <br>@theRealHasanboy </p>
+      <footer class="footer">
+        <p style="color:black; padding-top: 20px; text-align: center; ">&#9400 2021 theRealHasanboy. All rights reserved.
+        <br><i style="font-size: 25px">
+            <a href=""><i class="bi bi-twitter" style="color: black;"></i></a>
+            <a href=""><i class="bi bi-github" style="color: black;"></i></a>
+            <a href=""><i class="bi bi-telegram" style="color: black;"></i></a>
+            <a href=""><i class="bi bi-linkedin" style="color: black;"></i></a>
+            <a href=""><i class="bi bi-instagram" style="color: black;"></i></a>
+            </i>
     </footer>
 
     <!-- JavaScript links -->

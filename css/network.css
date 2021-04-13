@@ -53,6 +53,7 @@ body {margin:0;height:2000px;}
 
 @media screen and (max-width: 800px){
   .icon-bar {
+    display: none;
     position: fixed;
     top: 95%;
     -webkit-transform: translateX(-50%);
